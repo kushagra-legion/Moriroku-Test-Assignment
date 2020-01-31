@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/admin"
+            android:title="ADMINISTRATOR" />
+        <item
+            android:id="@+id/inquiry"
+            android:title="ADD PRODUCT PICTURE FOR INQUIRY" />
+        <item
+            android:id="@+id/products"
+            android:title="OUR PRODUCTS" />
+        <item
+            android:id="@+id/clients"
+            android:title="OUR CLIENTS" />
+        <item
+            android:id="@+id/learn"
+            android:title="LEARN MORE" />
+        <item
+            android:id="@+id/feedback"
+            android:title="SUPPORT AND FEEDBACK" />
+        <item
+            android:id="@+id/aboutus"
+            android:title="ABOUT US" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>
